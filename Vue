@@ -1,0 +1,29 @@
+Vue JS Notes
+
+File startes with:
+- Vue.createApp({})
+- store in a constant ..
+const app = Vue.createApp({})
+
+Connet Vue with an HTML ID
+-app.mount('#');
+
+listen for events-
+  v-on:click = @click
+
+Data Binding via interpolation-
+  v-bind = :
+
+  v-model binds to user input
+  
+Reactivity:
+Computer properties -
+  computed keys are good for if/else statments instatiated when the object or value changes. 
+ Watchers
+ 
+ v-if 
+  used in HTML to implement an if statement
+  
+v-else
+  only used on an elment directly after v-if
+v-else-if
