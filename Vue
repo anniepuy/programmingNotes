@@ -27,3 +27,8 @@ Computer properties -
 v-else
   only used on an elment directly after v-if
 v-else-if
+
+v-show
+  hide/show elements on click
+v-for
+  for loop
